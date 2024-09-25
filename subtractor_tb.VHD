@@ -1,8 +1,8 @@
 LIBRARY ieee; 
 USE ieee.std_logic_1164.ALL; 
-ENTITY TB IS 
-END TB; 
-ARCHITECTURE behavior OF TB IS 
+ENTITY subtractor_tb IS 
+END subtractor_tb; 
+ARCHITECTURE behavior OF subtractor_tb IS 
    COMPONENT subtractor 
    PORT( 
         Bi : IN  std_logic; 
